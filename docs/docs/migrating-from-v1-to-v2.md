@@ -136,10 +136,14 @@ export default ({ children }) => (
 )
 ```
 
-### 2. Move `layouts/index.js` to `src/components/layout.js` (optional, but recommended)
+### 2. Move `layouts/index.js` to `src/components/layout.js` and `layouts/index.css` to `src/components/layout.css` (optional, but recommended)
 
 ```bash
 git mv src/layouts/index.js src/components/layout.js
+```
+
+```bash
+git mv src/layouts/index.css src/components/layout.css
 ```
 
 ### 3. Import and wrap pages with layout component
